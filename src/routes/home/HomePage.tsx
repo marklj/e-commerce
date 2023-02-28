@@ -1,5 +1,5 @@
 import React from "react";
-import Directory from "./components/directory/directory.component";
+import Directory from "../../components/directory/Directory";
 
 export type Category = {
   id: number;
@@ -7,7 +7,7 @@ export type Category = {
   imageUrl: string;
 };
 
-const App = () => {
+const HomePage = () => {
   const categories: Category[] = [
     {
       id: 1,
@@ -35,7 +35,11 @@ const App = () => {
       imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
     },
   ];
-  return <Directory categories={categories} />;
+  return (
+    <div>
+      <Directory categories={categories} />
+    </div>
+  );
 };
 
-export default App;
+export default HomePage;

@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    font-size: 1.75em;
+    font-weight: 600;
+    gap: .25em;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+}

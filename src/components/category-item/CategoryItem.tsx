@@ -1,5 +1,5 @@
 import React from "react";
-import "./category-item.styles.scss";
+import "./categoryItem.styles.scss";
 
 type CategoryItemProps = {
   title: string;

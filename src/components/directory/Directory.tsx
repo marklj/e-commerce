@@ -1,6 +1,6 @@
 import React from "react";
-import { Category } from "../../App";
-import CategoryItem from "../category-item/category-item.component";
+import { Category } from "../../routes/home/HomePage";
+import CategoryItem from "../category-item/CategoryItem";
 import "./directory.styles.scss";
 
 type DirectoryProps = {
